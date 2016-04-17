@@ -14,6 +14,12 @@
     <sprite>sprites\spr_checkpoint</sprite>
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_player_jog</sprite>
+    <sprite>sprites\spr_player_stopped</sprite>
+    <sprite>sprites\spr_player_down</sprite>
+    <sprite>sprites\spr_player_up</sprite>
+    <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_goomba</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
