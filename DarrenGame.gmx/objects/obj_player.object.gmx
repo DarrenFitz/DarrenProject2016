@@ -29,6 +29,7 @@
 grav = 0.25;
 vsp =0;
 hsp =0;
+hsp_carry = 0;
 movespeed = 4;
 
 numjumps = 0;
@@ -69,7 +70,7 @@ key_down = 0;
           <argument>
             <kind>1</kind>
             <string>jumpspeed = jumpspeed_normal;
-sprite_index = spr_player;
+sprite_index = spr_player_stopped;
 </string>
           </argument>
         </arguments>
@@ -114,25 +115,26 @@ if (key_jump) &amp;&amp; (numjumps &gt; 0)
     vsp = -jumpspeed;
 }
 
-if (key_jump) &amp;&amp; (place_meeting(x+1,y,obj_wall) || place_meeting(x-1,y,obj_wall))
-{
-    for(a = 0; a&gt;1; a++)
-    {
-     vsp = -jumpspeed;
-    }
-}
+//jump against walls
+//if (key_jump) &amp;&amp; (place_meeting(x+1,y,obj_wall) || place_meeting(x-1,y,obj_wall))
+//{ 
+     //vsp = -jumpspeed;  
+//}
 
+var hsp_final =  hsp + hsp_carry;// when player leaves platform speed is equal to original speed
+hsp_carry = 0; 
 
 //collision detection horizontal so player doesnt walk through wall
-if (place_meeting(x+hsp,y,obj_wall))
+if (place_meeting(x+hsp_final,y,obj_wall))
 {
-    while(!place_meeting(x+sign(hsp),y,obj_wall))
+    while(!place_meeting(x+sign(hsp_final),y,obj_wall))
     {
-        x += sign(hsp);
+        x += sign(hsp_final); //sign return integer of either 1,-1,or 0 depending on value in brackets
     }
-    hsp=0
+    hsp_final = 0;
+    hsp=0;
 }
-x += hsp;
+x += hsp_final;
 
 //collision detection vertical so player doesnt jump up through wall
 if (place_meeting(x,y+vsp,obj_wall))

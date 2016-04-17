@@ -28,7 +28,6 @@
             <string>with (obj_player)
 {
     jumpspeed = jumpspeed_powerup;
-    sprite_index = spr_player_b;
     alarm[0] = 300;
 }
 

@@ -6,10 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_powerup</sprite>
-    <sprite>sprites\spr_player_b</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
     <sprite>sprites\spr_platform</sprite>
@@ -20,6 +18,9 @@
     <sprite>sprites\spr_player_up</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_goomba</sprite>
+    <sprite>sprites\spr_wall2</sprite>
+    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\spr_platform_moving</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -33,6 +34,7 @@
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_platform</object>
+    <object>objects\obj_platform_moving</object>
     <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">
