@@ -92,7 +92,7 @@ if (place_meeting(x,y,obj_player))
     {
         with(obj_player) vsp = -jumpspeed;
          instance_destroy();
-         
+         audio_play_sound(snd_enemy,0,0);      
     }
     else
     {

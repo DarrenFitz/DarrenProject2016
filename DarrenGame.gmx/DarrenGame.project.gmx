@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_coin</sound>
+    <sound>sound\snd_enemy</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
@@ -18,12 +19,13 @@
     <sprite>sprites\spr_player_stopped</sprite>
     <sprite>sprites\spr_player_down</sprite>
     <sprite>sprites\spr_player_up</sprite>
-    <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_goomba</sprite>
     <sprite>sprites\spr_wall2</sprite>
     <sprite>sprites\sprite16</sprite>
     <sprite>sprites\spr_platform_moving</sprite>
+    <sprite>sprites\spr_pillar</sprite>
     <sprite>sprites\spr_coin</sprite>
+    <sprite>sprites\spr_lava</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,9 +33,9 @@
     <script>scripts\scr_death.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_wall</object>
     <object>objects\obj_score</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_wall</object>
     <object>objects\obj_powerup</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy</object>
@@ -41,11 +43,14 @@
     <object>objects\obj_platform_moving</object>
     <object>objects\obj_door</object>
     <object>objects\obj_coin</object>
+    <object>objects\obj_lava</object>
+    <object>objects\obj_pillar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initialize</room>
     <room>rooms\room1</room>
     <room>rooms\room2</room>
+    <room>rooms\room3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
