@@ -155,8 +155,10 @@ if(place_meeting(x,y-1,obj_lava))
     scr_death();
 }
 
-//Collision pillar
-
+if(place_meeting(x,y,obj_enemy_2))
+{
+    scr_death();
+}
 
 //animate the player to jog 
 

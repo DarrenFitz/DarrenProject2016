@@ -23,7 +23,6 @@
     <sprite>sprites\spr_wall2</sprite>
     <sprite>sprites\sprite16</sprite>
     <sprite>sprites\spr_platform_moving</sprite>
-    <sprite>sprites\spr_pillar</sprite>
     <sprite>sprites\spr_coin</sprite>
     <sprite>sprites\spr_lava</sprite>
   </sprites>
@@ -41,10 +40,10 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_platform</object>
     <object>objects\obj_platform_moving</object>
+    <object>objects\obj_enemy_2</object>
     <object>objects\obj_door</object>
     <object>objects\obj_coin</object>
     <object>objects\obj_lava</object>
-    <object>objects\obj_pillar</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initialize</room>
