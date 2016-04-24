@@ -40,12 +40,14 @@ jumpspeed_powerup = 9;
 
 jumpspeed = jumpspeed_normal
 
+startx = x;
+starty = y;
 
-if (global.checkpointR == room)
-{
-    x = global.checkpointx;
-    y = global.checkpointy;
-}
+//if (global.checkpointR == room)
+//{
+    //x = global.checkpointx;
+    //y = global.checkpointy;
+//}
 
 key_down = 0;
 </string>

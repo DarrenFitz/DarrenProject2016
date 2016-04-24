@@ -26,7 +26,7 @@
     <sprite>sprites\spr_coin</sprite>
     <sprite>sprites\spr_lava</sprite>
     <sprite>sprites\spr_enemy_gun</sprite>
-    <sprite>sprites\spr_enemy_gun_bullet</sprite>
+    <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spri_menu_icon</sprite>
     <sprite>sprites\spr_levels</sprite>
   </sprites>
@@ -57,6 +57,7 @@
     <object>objects\obj_enemo</object>
     <object>objects\obj_menu</object>
     <object>objects\obj_levels</object>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initialize</room>
