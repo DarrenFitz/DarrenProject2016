@@ -87,7 +87,7 @@ offEdge = 0;
 vsp += grav;
 
 //Alarm for bullet
-if (alarm[0] = -1) alarm[0]=room_speed*1
+if (alarm[0] = -1) alarm[0]=room_speed*2
 
 
 //This is the horizontal collision of enemy with wall
