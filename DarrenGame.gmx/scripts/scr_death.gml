@@ -5,5 +5,5 @@ if (global.checkpointR != 0)
 }
 else
 {
-    game_restart();  
+    room_restart();  
 }

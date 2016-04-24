@@ -25,28 +25,43 @@
     <sprite>sprites\spr_platform_moving</sprite>
     <sprite>sprites\spr_coin</sprite>
     <sprite>sprites\spr_lava</sprite>
+    <sprite>sprites\spr_enemy_gun</sprite>
+    <sprite>sprites\spr_enemy_gun_bullet</sprite>
+    <sprite>sprites\spri_menu_icon</sprite>
+    <sprite>sprites\spr_levels</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
+    <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_levels.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_menu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_coin</object>
     <object>objects\obj_player</object>
     <object>objects\obj_powerup</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_enemy_gun</object>
     <object>objects\obj_platform</object>
     <object>objects\obj_platform_moving</object>
     <object>objects\obj_enemy_2</object>
     <object>objects\obj_door</object>
-    <object>objects\obj_coin</object>
     <object>objects\obj_lava</object>
+    <object>objects\obj_enemo</object>
+    <object>objects\obj_menu</object>
+    <object>objects\obj_levels</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initialize</room>
+    <room>rooms\room_menu</room>
+    <room>rooms\room_levels</room>
     <room>rooms\room1</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
