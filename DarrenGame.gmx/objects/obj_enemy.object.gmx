@@ -68,7 +68,7 @@ if (place_meeting(x+hsp,y,obj_wall))
     {
         x += sign(hsp);
         //Enemy head towards to player
-        mp_potential_step(obj_player.x,obj_player.y,2,true);
+        //mp_potential_step(obj_player.x,obj_player.y,2,true);
     }
     hsp=0
     

@@ -8,3 +8,5 @@ else
     obj_player.x = obj_player.startx
     obj_player.y = obj_player.starty
 }
+
+

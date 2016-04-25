@@ -34,6 +34,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -52,15 +53,14 @@
     <object>objects\obj_player</object>
     <object>objects\obj_powerup</object>
     <object>objects\obj_checkpoint</object>
+    <object>objects\obj_platform_moving</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy_gun</object>
     <object>objects\obj_cannon</object>
     <object>objects\obj_platform</object>
-    <object>objects\obj_platform_moving</object>
     <object>objects\obj_enemy_2</object>
     <object>objects\obj_door</object>
     <object>objects\obj_lava</object>
-    <object>objects\obj_enemo</object>
     <object>objects\obj_menu</object>
     <object>objects\obj_levels</object>
     <object>objects\obj_bullet</object>
@@ -76,6 +76,7 @@
     <room>rooms\room3</room>
     <room>rooms\room4</room>
     <room>rooms\room5</room>
+    <room>rooms\room6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

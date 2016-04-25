@@ -30,8 +30,10 @@ level[0] = "Level 1";
 level[1] = "Level 2";
 level[2] = "Level 3";
 level[3] = "Level 4";
+level[4] = "Level 5";
 
-space = 64;
+//space = 64;
+space = 72;
 lvlPos = 0;
 
 
@@ -97,7 +99,7 @@ if (push == 1) scr_levels();
             <string>draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(fnt_menu);
-draw_set_colour(c_white);
+draw_set_colour(c_black);
 
 var i;
 for (i = 0; i &lt; array_length_1d(level); i+=1)
