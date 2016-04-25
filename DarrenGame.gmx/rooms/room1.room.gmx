@@ -385,7 +385,7 @@
     <instance objName="obj_wall" x="160" y="160" name="inst_679FD872" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="160" name="inst_EF508F5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="608" y="288" name="inst_28D7AE44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="160" y="96" name="inst_EB7FA7D5" locked="0" code="target_x = 50;&#xA;target_y = 100;&#xA;target_r = room2;" scaleX="0.223495706915855" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="160" y="96" name="inst_EB7FA7D5" locked="0" code="target_x = 50;&#xA;target_y = 100;&#xA;target_r = room2;&#xA;" scaleX="0.223495706915855" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="480" y="96" name="inst_DC5FF88E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="416" name="inst_68AAEFEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="448" name="inst_BBBAE3BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

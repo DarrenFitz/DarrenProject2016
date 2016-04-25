@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>global.checkpoint = noone;
-global.checkpointR = 0;
+global.checkpointRoom = 0;
 global.checkpointx = 0;
 global.checkpointy = 0;
 

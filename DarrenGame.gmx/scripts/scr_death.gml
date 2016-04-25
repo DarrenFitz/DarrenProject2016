@@ -1,4 +1,4 @@
-if (global.checkpointR == room)
+if (global.checkpointRoom == room)
 {
    obj_player.x = global.checkpointx;
    obj_player.y = global.checkpointy;

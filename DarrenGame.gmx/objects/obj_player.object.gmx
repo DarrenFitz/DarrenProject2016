@@ -97,6 +97,7 @@ sprite_index = spr_player_stopped;
           <argument>
             <kind>1</kind>
             <string>//Get the player input
+//All the arrows keys
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
@@ -104,24 +105,18 @@ key_down = keyboard_check(vk_down);
 
 
 
-move = key_left + key_right;
-hsp = move * movespeed;
-
+move = key_left + key_right; //add keys to equal move variable
+hsp = move * movespeed; //gives horizontal speed
 
 if (vsp &lt; 10) vsp += grav;
 
-if (place_meeting(x, y+1, obj_wall)){
+if (place_meeting(x, y+1, obj_wall)){ //if player meets 1 above the wall reset number of jumps to maxjumps
     numjumps = maxjumps;
 }
 
-if (key_jump) &amp;&amp; (numjumps &gt; 0){
+if (key_jump) &amp;&amp; (numjumps &gt; 0){  //if jump is pressed and he hasnt used his double jump (&lt; 0).....he can jump
     numjumps -= 1;
     vsp = -jumpspeed;
-}
-
-//jump against walls
-if (key_jump) &amp;&amp; (place_meeting(x+1,y,obj_wall) || place_meeting(x-1,y,obj_wall)){ 
-     vsp = -jumpspeed;  
 }
 
 var hsp_final =  hsp + hsp_carry;// when player leaves platform speed is equal to original speed
@@ -153,6 +148,7 @@ if(place_meeting(x,y-1,obj_lava)){
     scr_death();
 }
 
+//collisiom with enemy_2
 if(place_meeting(x,y,obj_enemy_2)){
     scr_death();
 }
