@@ -12,10 +12,16 @@ switch (lvlPos)
         room_goto(room2);
         break;
     }
-      
-    case 2:
+    
+        case 2:
     {
         room_goto(room3);
+        break;
+    }
+      
+    case 3:
+    {
+        room_goto(room4);
         break;
     }
     default:

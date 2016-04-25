@@ -29,8 +29,12 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spri_menu_icon</sprite>
     <sprite>sprites\spr_levels</sprite>
+    <sprite>sprites\spr_cannon</sprite>
+    <sprite>sprites\spr_cannon_ball</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
@@ -39,6 +43,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_menu</font>
+    <font>fonts\fnt_final_score</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_wall</object>
@@ -49,6 +54,7 @@
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy_gun</object>
+    <object>objects\obj_cannon</object>
     <object>objects\obj_platform</object>
     <object>objects\obj_platform_moving</object>
     <object>objects\obj_enemy_2</object>
@@ -58,6 +64,8 @@
     <object>objects\obj_menu</object>
     <object>objects\obj_levels</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_cannon_ball</object>
+    <object>objects\obj_final_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_initialize</room>
@@ -66,6 +74,8 @@
     <room>rooms\room1</room>
     <room>rooms\room2</room>
     <room>rooms\room3</room>
+    <room>rooms\room4</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
